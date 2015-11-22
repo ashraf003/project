@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is a web design project
 
 Sources are:
@@ -11,5 +12,7 @@ Reset css:
 Youtube Link:
 
 
+=======
+>>>>>>> parent of ba2e5f9... First line added
 =======
 >>>>>>> parent of ba2e5f9... First line added
