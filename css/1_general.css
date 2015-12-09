@@ -1,0 +1,41 @@
+/* ----------- general CSS --------- */
+
+/* ----------- root font size ------- */
+html
+{
+	font-size: 18pt;
+}
+
+/* ----------- other basic page styles ------- */
+body
+{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 2rem;
+	color: red;
+	padding-top: 1rem;
+}
+
+/* ---- handy for center / right of elements in blocks --- */
+.right
+{
+	text-align: right;
+}
+
+.center
+{
+	text-align: center;
+}
+
+/* ----------- links in content (not nav bar) ------- */
+a
+{
+	color: green;
+	text-decoration: none;
+	border-bottom: 0.1rem solid green;
+}

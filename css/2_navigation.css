@@ -1,0 +1,44 @@
+/* remove bullets from list, flex children etc. */
+nav ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+	display: flex;
+}
+
+/* ----- li's to each take equal share of width ---- */
+nav li
+{
+	flex: 1;
+}
+
+/* display BLOCK, remove underline etc. */
+nav a
+{
+	color: black;
+	display: block;
+
+	padding: 0.1rem;
+	border: 0.1rem solid black;
+
+	text-decoration: none;
+	text-align: center;
+
+	background-color: lightblue;
+}
+
+/* ------------------ current page --------------- */
+nav ul a.current_page
+{
+	background-color: yellow;
+	color: red;
+}
+/* ------------------ mouse over link  --------------- */
+nav a:hover
+{
+	background-color: gray;
+	color: white;
+}
+

@@ -1,0 +1,33 @@
+/* --------- header --------- */
+header
+{
+	display: flex;
+	align-items: center;
+}
+
+header section
+{
+	flex: 1;
+}
+
+/* --------- main --------- */
+main
+{
+	display: flex;
+	align-items: center;
+}
+
+main section
+{
+	flex: 1;
+	padding: 1rem;
+}
+
+/* --------- footer --------- */
+footer
+{
+	border-top: 0.1rem solid black;
+	padding: 1rem;
+	font-size: 0.75rem;
+	text-align: right;
+}
